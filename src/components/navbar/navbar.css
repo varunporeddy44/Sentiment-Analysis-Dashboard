@@ -1,0 +1,26 @@
+
+.navbar {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #eceff1;
+    height: 7.2%;
+    padding: 12px;
+  }
+  
+  .navbar__link {
+    padding: 14px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    overflow-wrap: normal;
+    color: "white";
+    width: 80px;
+  }
+  
+  .navbar__link--active {
+    color: "white";
+    text-decoration: none;
+    background-color:#fb9902;
+  }

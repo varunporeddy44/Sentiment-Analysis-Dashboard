@@ -1,0 +1,9 @@
+@import '../../../styles/_colors';
+
+#conversation-list {
+    grid-area: conversation-list;
+    background: white;
+    overflow-y: scroll;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
